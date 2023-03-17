@@ -1,0 +1,27 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	background-color: gray;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+	margin-right: 10px;
+}
+.text-center {
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+input[type=text], input[type=radio], input[type=checkbox], select {
+}
+.mainContainer{
+	display: flex;
+}
