@@ -22,28 +22,28 @@
             <div class="bg-light">
               <h1>Form Submission</h1>
 
-              <!-- <form id="myForm"> -->
+              <form id="form">
 
               <label for="firstName">First Name:</label><br />
               <input
                 type="text"
                 id="firstName"
                 name="firstName"
-                required
+                
               /><br />
 
               <label for="lastName">Last Name:</label><br />
-              <input type="text" id="lastName" name="lastName" required /><br />
+              <input type="text" id="lastName" name="lastName"  /><br />
 
               <label for="address">Address:</label><br />
-              <input type="text" id="address" name="address" required /><br />
+              <input type="text" id="address" name="address"  /><br />
 
               <label for="pincode">Pincode:</label><br />
               <input
                 type="text"
                 id="pincode"
                 name="pincode"
-                required
+                
               /><br /><br />
 
               <label for="gender">Gender:</label><br />
@@ -52,7 +52,7 @@
                 id="male"
                 name="gender"
                 value="male"
-                required
+                
               />
               <label for="male">Male</label>
               <input type="radio" id="female" name="gender" value="female" />
@@ -76,19 +76,21 @@
               <label for="rice">Rice</label><br />
 
               <label for="state">State:</label><br />
-              <input type="text" id="state" name="state" required /><br />
+              <input type="text" id="state" name="state"  /><br />
 
               <label for="country">Country:</label><br />
               <input
                 type="text"
                 id="country"
                 name="country"
-                required
+                
               /><br /><br />
 
               <input type="submit" value="Submit" />
+			  </form>
             </div>
           </div>
+		 
 		  <div class="col-md-7">
             <div class="text-center">
               <h2>Temporary Database</h2>
@@ -105,9 +107,9 @@
                     <th>Country</th>
                   </tr>
                 </thead>
-                <!-- <tbody>
-			
-		</tbody> -->
+                <tbody>
+					<p id="log"></p>
+		</tbody>
               </table>
             </div>
           </div>
